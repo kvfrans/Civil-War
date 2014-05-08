@@ -11,6 +11,7 @@
 		0A9FEF581911B79F003EFF86 /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FEF571911B79F003EFF86 /* Tank.m */; };
 		0A9FEF5C1911B91C003EFF86 /* CANNONBALL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FEF5B1911B91C003EFF86 /* CANNONBALL.m */; };
 		0AA44B891910930F00BD4A84 /* Bur.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA44B881910930F00BD4A84 /* Bur.m */; };
+		0AD16AFB191B2D4F00813439 /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD16AFA191B2D4F00813439 /* bear.png */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -66,6 +67,7 @@
 		0A9FEF5B1911B91C003EFF86 /* CANNONBALL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANNONBALL.m; sourceTree = "<group>"; };
 		0AA44B871910930F00BD4A84 /* Bur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bur.h; sourceTree = "<group>"; };
 		0AA44B881910930F00BD4A84 /* Bur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bur.m; sourceTree = "<group>"; };
+		0AD16AFA191B2D4F00813439 /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0AD16AFA191B2D4F00813439 /* bear.png */,
 				B73789911807667A0076A88C /* Icons */,
 				B737893A180761570076A88C /* Published-iOS */,
 			);
@@ -264,7 +267,7 @@
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
 					B77F1B2D17B978D7009739AE = {
-						DevelopmentTeam = SBVP8ED765;
+						DevelopmentTeam = EHP752TB4K;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -322,6 +325,7 @@
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
+				0AD16AFB191B2D4F00813439 /* bear.png in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,

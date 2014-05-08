@@ -15,6 +15,16 @@
 
 +(void) setHealth:(Bur*) bur forInt:(int) health;
 
++(int) getType:(Bur*) bur;
+
++(void) setType:(Bur*) bur forInt:(int) type;
+
++(int) getState:(Bur*) bur;
+
++(void) setState:(Bur*) bur forInt:(int) state;
+
+
+
 
     
 

@@ -13,6 +13,7 @@
     int health;
     int type;
     int speed;
+    int state;
 }
 
 - (id)init {
@@ -21,11 +22,21 @@
     if (self) {
         health = 10;
         type = 1;
+        state = 1;
         NSLog(@"bear made");
     }
     return self;
 }
 
++(int) getState:(Bur*) bur
+{
+    return bur->state;
+}
+
++(void) setState:(Bur*) bur forInt:(int) state
+{
+    bur->state = state;
+}
 
 +(int) getHealth:(Bur*) bur
 {

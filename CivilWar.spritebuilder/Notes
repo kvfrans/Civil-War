@@ -1,5 +1,19 @@
 Types of units
 
-1: bear
-2: tank
-3: cannonball
+1 = footman
+2 = artillery
+3 = musket
+4 = musket horse
+5 = horse
+6 = dragoon
+
+
+
+101 = cannonball
+
+
+
+
+States:
+1 = moving
+2 = attacking
